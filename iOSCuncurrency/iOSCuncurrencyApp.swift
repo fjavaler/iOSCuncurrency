@@ -11,7 +11,7 @@ import SwiftUI
 struct iOSCuncurrencyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            UsersListView()
         }
     }
 }

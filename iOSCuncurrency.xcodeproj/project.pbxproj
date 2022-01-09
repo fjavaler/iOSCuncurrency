@@ -8,17 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		AC24BD72278A69D7001DB816 /* iOSCuncurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC24BD71278A69D7001DB816 /* iOSCuncurrencyApp.swift */; };
-		AC24BD74278A69D7001DB816 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC24BD73278A69D7001DB816 /* ContentView.swift */; };
+		AC24BD74278A69D7001DB816 /* UsersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC24BD73278A69D7001DB816 /* UsersListView.swift */; };
 		AC24BD76278A69D7001DB816 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC24BD75278A69D7001DB816 /* Assets.xcassets */; };
 		AC24BD79278A69D7001DB816 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC24BD78278A69D7001DB816 /* Preview Assets.xcassets */; };
+		AC43180A278A784D0018D164 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC431809278A784D0018D164 /* Post.swift */; };
+		AC43180D278A7AF30018D164 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC43180C278A7AF30018D164 /* APIService.swift */; };
+		AC9304CA278A703E00158FCF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9304C9278A703E00158FCF /* User.swift */; };
+		ACBBB1D3278A94700011DC85 /* UsersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBBB1D2278A94700011DC85 /* UsersListViewModel.swift */; };
+		ACBBB1D5278A97290011DC85 /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = ACBBB1D4278A97290011DC85 /* users.json */; };
+		ACBBB1D7278A977B0011DC85 /* posts.json in Resources */ = {isa = PBXBuildFile; fileRef = ACBBB1D6278A977B0011DC85 /* posts.json */; };
+		ACBBB1DB278A980D0011DC85 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBBB1DA278A980D0011DC85 /* Bundle+Extension.swift */; };
+		ACBBB1DD278A99430011DC85 /* PostsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBBB1DC278A99430011DC85 /* PostsListView.swift */; };
+		ACBBB1DF278A99D50011DC85 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBBB1DE278A99D50011DC85 /* MockData.swift */; };
+		ACBBB1E1278A9C140011DC85 /* PostsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBBB1E0278A9C140011DC85 /* PostsListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AC24BD6E278A69D7001DB816 /* iOSCuncurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSCuncurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC24BD71278A69D7001DB816 /* iOSCuncurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSCuncurrencyApp.swift; sourceTree = "<group>"; };
-		AC24BD73278A69D7001DB816 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC24BD73278A69D7001DB816 /* UsersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListView.swift; sourceTree = "<group>"; };
 		AC24BD75278A69D7001DB816 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC24BD78278A69D7001DB816 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC24BD7F278A6B2F001DB816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AC431809278A784D0018D164 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		AC43180C278A7AF30018D164 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		AC9304C9278A703E00158FCF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		ACBBB1D2278A94700011DC85 /* UsersListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListViewModel.swift; sourceTree = "<group>"; };
+		ACBBB1D4278A97290011DC85 /* users.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
+		ACBBB1D6278A977B0011DC85 /* posts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = posts.json; sourceTree = "<group>"; };
+		ACBBB1DA278A980D0011DC85 /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
+		ACBBB1DC278A99430011DC85 /* PostsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsListView.swift; sourceTree = "<group>"; };
+		ACBBB1DE278A99D50011DC85 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		ACBBB1E0278A9C140011DC85 /* PostsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +73,12 @@
 			isa = PBXGroup;
 			children = (
 				AC24BD71278A69D7001DB816 /* iOSCuncurrencyApp.swift */,
-				AC24BD73278A69D7001DB816 /* ContentView.swift */,
+				AC9304C8278A702700158FCF /* Models */,
+				AC9304CB278A704900158FCF /* Views */,
+				ACBBB1D1278A94530011DC85 /* ViewModels */,
+				AC43180B278A7ADC0018D164 /* Services */,
+				ACBBB1D8278A97DE0011DC85 /* Extensions */,
+				AC24BD7F278A6B2F001DB816 /* Info.plist */,
 				AC24BD75278A69D7001DB816 /* Assets.xcassets */,
 				AC24BD77278A69D7001DB816 /* Preview Content */,
 			);
@@ -63,8 +89,54 @@
 			isa = PBXGroup;
 			children = (
 				AC24BD78278A69D7001DB816 /* Preview Assets.xcassets */,
+				ACBBB1D4278A97290011DC85 /* users.json */,
+				ACBBB1D6278A977B0011DC85 /* posts.json */,
+				ACBBB1DE278A99D50011DC85 /* MockData.swift */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC43180B278A7ADC0018D164 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AC43180C278A7AF30018D164 /* APIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AC9304C8278A702700158FCF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AC9304C9278A703E00158FCF /* User.swift */,
+				AC431809278A784D0018D164 /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AC9304CB278A704900158FCF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC24BD73278A69D7001DB816 /* UsersListView.swift */,
+				ACBBB1DC278A99430011DC85 /* PostsListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ACBBB1D1278A94530011DC85 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				ACBBB1D2278A94700011DC85 /* UsersListViewModel.swift */,
+				ACBBB1E0278A9C140011DC85 /* PostsListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		ACBBB1D8278A97DE0011DC85 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ACBBB1DA278A980D0011DC85 /* Bundle+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +197,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACBBB1D5278A97290011DC85 /* users.json in Resources */,
 				AC24BD79278A69D7001DB816 /* Preview Assets.xcassets in Resources */,
 				AC24BD76278A69D7001DB816 /* Assets.xcassets in Resources */,
+				ACBBB1D7278A977B0011DC85 /* posts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +211,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC24BD74278A69D7001DB816 /* ContentView.swift in Sources */,
+				AC24BD74278A69D7001DB816 /* UsersListView.swift in Sources */,
+				ACBBB1DB278A980D0011DC85 /* Bundle+Extension.swift in Sources */,
+				ACBBB1DD278A99430011DC85 /* PostsListView.swift in Sources */,
+				ACBBB1D3278A94700011DC85 /* UsersListViewModel.swift in Sources */,
+				ACBBB1DF278A99D50011DC85 /* MockData.swift in Sources */,
+				AC43180D278A7AF30018D164 /* APIService.swift in Sources */,
+				ACBBB1E1278A9C140011DC85 /* PostsListViewModel.swift in Sources */,
 				AC24BD72278A69D7001DB816 /* iOSCuncurrencyApp.swift in Sources */,
+				AC9304CA278A703E00158FCF /* User.swift in Sources */,
+				AC43180A278A784D0018D164 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,9 +354,9 @@
 				DEVELOPMENT_TEAM = G6J4RFMLHY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOSCuncurrency/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -301,9 +383,9 @@
 				DEVELOPMENT_TEAM = G6J4RFMLHY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOSCuncurrency/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
